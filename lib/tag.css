@@ -1,0 +1,9 @@
+.vp-tag {
+  width: 10px;
+}
+.vp-tag--mini {
+  background: #f00;
+}
+.vp-tag--mini.bb,.bb {
+  background: #f00;
+}

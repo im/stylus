@@ -1,0 +1,11 @@
+@import './mixins/config'
+b($block)
+    $B = $namespace + '-' + $block
+    .{$B}
+        {block}
+m()
+    $currentSelector = ''
+    for $unit in arguments
+        $currentSelector = $currentSelector + '&' + $modifier-separator + $unit + ','
+    / {$currentSelector}
+        {block} 
